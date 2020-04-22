@@ -10,9 +10,7 @@ void main() {
           backgroundColor: Colors.blueGrey[900],
         ),
         body: Center(
-          child: Image(
-              image: NetworkImage(
-                  'https://codigobase.es/wp-content/uploads/2019/03/Google-flutter-logo.png')),
+          child: Image(image: AssetImage('images/diamond.png')),
         ),
       ),
     ),
